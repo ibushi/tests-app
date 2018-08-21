@@ -1,0 +1,11 @@
+.product-image {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 500px;
+  background: linear-gradient(135deg, rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(102,102,102) 25%,rgb(71,71,71) 39%,rgb(44,44,44) 50%,rgb(17,17,17) 60%,rgb(0,0,0) 61%,rgb(0,0,0) 61%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%);
+}
+
+.product-text {
+  padding: 0 50px;
+}

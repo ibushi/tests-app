@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../general.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Welcome to Online Shop</h1>
+        </div>        
+        <div class="h3-text">
+            <h3>Register</h3>
+        </div>
+        <form action="../login/index.html" metod="post">
+            <label for="firstName">First name</label>
+            <input id="firstName" type="text" name="firstName" required />
+            <br>
+            <label for="lastName">Last name</label>
+            <input id="lastName" type="text" name="lastName" required />
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br>
+            <br>
+            <label for="phone">Phone</label>
+            <input 
+                id="phone" 
+                type="tel" 
+                name="phone" 
+                placeholder="123-456-789" 
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" 
+                required 
+            />
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required />
+            <br>
+            <label for="date">Date of birth</label>
+            <input id="date" type="date" name="date" required />
+            <br>
+            <label for="foot">Foot size</label>
+            <input id="foot" type="number" name="foot" required min=35 max=49 step=0.5/>
+            <br>
+            <label for="username">User name</label>
+            <input id="username" type="text" name="username" required />
+            <br>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" required />
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

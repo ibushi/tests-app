@@ -1,0 +1,32 @@
+input[type="checkbox"]:indeterminate + label {
+  font-style: italic;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+textarea:disabled + label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+label:first-of-type {
+  font-size: 30px;
+}
+
+textarea#adminNotes {
+  margin: 0;
+}
+
+textarea#adminNotes + label {
+  font-size: 10px;
+}

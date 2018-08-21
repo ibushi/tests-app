@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add product</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../general.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Welcome to Online Shop</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../homepage/index.html">Homepage</a></li>
+                <li><a href="../addProduct/index.html">Add product</a></li>
+                <li><a href="../allProducts/index.html">All products</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <div class="h3-text">
+            <h3>Add product</h3>
+        </div>
+        <form action="../homepage/index.html" metod="post">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" required />
+            <br>
+            <label for="description">Description</label>
+            <textarea id="description" type="text" name="description" required></textarea>
+            <br>
+            <textarea id="adminNotes" type="text" name="adminNotes" disabled></textarea>
+            <label for="adminNotes">Admin notes</label>
+            <br>
+            <label for="image">Image</label>
+            <input id="image" type="file" name="image" />
+            <br>           
+            <input id="checkAll" type="checkbox" name="checkAll" value="checkAll"> <label for="checkAll">All</label>
+            <br>           
+            <input id="overSize" type="checkbox" name="overSize" value="overSize"> <label for="overSize">Oversize?</label>
+            <br>
+            <input id="takeAndGo" type="checkbox" name="takeAndGo" value="takeAndGo"> <label for="takeAndGo">Take-and-go?</label>        
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="footer">
+            All rights reserved - 2018
+        </div>
+    </div>
+</body>
+</html>

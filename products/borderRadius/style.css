@@ -1,0 +1,12 @@
+.product-image {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.product-text {
+  padding: 0 50px;
+}

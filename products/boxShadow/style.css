@@ -1,0 +1,12 @@
+.product-image {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  background-color: gray;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.product-text {
+  padding: 0 50px;
+}
